@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 import { Form, Input, Button } from 'reactstrap';
 
 export default function SearchForm( { placeholder, handleChange, handleSubmit }) {
@@ -13,7 +12,7 @@ export default function SearchForm( { placeholder, handleChange, handleSubmit })
           placeholder={placeholder}
           onChange={handleChange}
         />
-      <Button outline color="primary" block>Submit</Button>
+      <Button color="danger" block>Submit</Button>
       </Form>
     </section>
   );
