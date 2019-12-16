@@ -6,7 +6,7 @@ import Header from "./components/Header.js";
 import CharacterList from "./components/CharacterList";
 import WelcomePage from "./components/WelcomePage";
 
-// Basic Routing
+// Basic Routing from React
 import {Route, Link} from 'react-router-dom';
 
 export default function App() {
